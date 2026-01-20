@@ -1,0 +1,46 @@
+:root{
+    --font-default:"Open Sans", sans-serif;
+    --primary-font:"Montserrat", sans-serif;
+    --secondary-font:"Arvo", serif;
+    --color-primary:#333333;
+    --color-secondary:#9fa3a7;
+    --color-tertiary:#27b9c2;
+    --color-fourth:#ffc80a;
+    --bg-light:#ffffff;
+    --bg-secondary:#f7f8f9;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: var(--font-default);
+  line-height: 26px;
+  background-color: var(--bg-light);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secondary-font);
+}
