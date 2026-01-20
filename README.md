@@ -8,7 +8,6 @@ A responsive web layout project built with **HTML** and **CSS**, demonstrating t
 
 https://ziad-desouky.github.io/Grid
 
-
 ## Features
 
 - Light/dark mode toggle
