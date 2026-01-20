@@ -12,6 +12,7 @@
   --bg-secondary: #f7f8f9;
   --bg-tertiary: #f05638;
   --bg-fourth: #93b6b7;
+  --bg-fifth: #2c2c2c;
 }
 *,
 *::after,
@@ -64,6 +65,28 @@ h3 {
   line-height: 32px;
   font-weight: 400;
 }
+/* !theme */
+.float{
+  position: fixed;
+  background-color: var(--bg-secondary);
+  bottom: 2%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.float i {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+.float .light{
+  display: none;
+} 
+
 /* layout */
 .header {
   color: var(--color-secondary);
@@ -83,9 +106,6 @@ h3 {
     "three four four five"
     "six seven seven five"
     "eight nine ten ten";
-}
-.container > div {
-  border: 2px solid black;
 }
 .one {
   grid-area: one;
@@ -363,7 +383,7 @@ h3 {
 }
 .ten {
   grid-area: ten;
-  background-color: #2c2c2c;
+  background-color: var(--bg-fifth);
   display: flex;
   justify-content: space-around;
   align-items: center;
