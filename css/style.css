@@ -66,7 +66,7 @@ h3 {
   font-weight: 400;
 }
 /* !theme */
-.float{
+.float {
   position: fixed;
   background-color: var(--bg-secondary);
   bottom: 2%;
@@ -83,9 +83,9 @@ h3 {
   cursor: pointer;
   color: var(--color-primary);
 }
-.float .light{
+.float .light {
   display: none;
-} 
+}
 
 /* layout */
 .header {
@@ -338,6 +338,7 @@ h3 {
   grid-area: eight;
   background-color: #38d5f4;
   padding: 0 30px;
+  display: flex;
   .circle {
     background-image: linear-gradient(#35cfed);
     border-radius: 50%;
