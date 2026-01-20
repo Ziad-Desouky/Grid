@@ -1,0 +1,19 @@
+:root:has(input[type="checkbox"]:checked) {
+  --color-primary: #edecec;
+  --color-secondary: #9fa3a7;
+  --color-tertiary: #27b9c2;
+  --color-fourth: #ffc80a;
+  --color-light: #231e1e;
+  --color-violate: #a78bfa;
+  --color-dark-violate: #8b5cf6;
+  --bg-secondary: #181a1d;
+  --bg-tertiary: #f05638;
+  --bg-fourth: #93b6b7;
+  --bg-fifth: #f05638;
+}
+body:has(input[type="checkbox"]:checked) .float .light {
+  display: block;
+}
+body:has(input[type="checkbox"]:checked) .float .dark {
+  display: none;
+}
